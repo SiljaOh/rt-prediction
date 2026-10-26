@@ -6,6 +6,8 @@ The task: predict the liquid chromatography retention time of **73,782 peptides*
 
 <!-- TODO: add the challenge link (Hugging Face) here -->
 
+![Model performance](figures/model_performance.png)
+
 ## Approach
 
 A simple, interpretable two-stage model instead of a large neural network:
@@ -27,8 +29,6 @@ Splitting the problem this way lets the tree model learn chemistry once, while t
 | Challenge score (MAE, retention time) | **2.78 min** |
 | iRT model, validation R² | 0.890 |
 | Peptides predicted | 73,782 |
-
-![Model performance](figures/model_performance.png)
 
 The most important features are leucine count, the fraction of basic residues, hydrophobicity and phenylalanine count. This matches the chemistry of reversed-phase chromatography: hydrophobic peptides bind longer to the column and elute later.
 
