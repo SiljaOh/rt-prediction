@@ -1,6 +1,6 @@
-# Peptide Retention Time Prediction 🏆
+# Peptide Retention Time Prediction
 
-**Winning solution** of the retention time bonus challenge in the proteomics project course of Prof. Mathias Wilhelm's Computational Mass Spectrometry group, Technical University of Munich (January 2026).
+Developed in the proteomics project course of **Prof. Mathias Wilhelm's Computational Mass Spectrometry group**, Technical University of Munich (January 2026), as part of the group's retention time prediction challenge.
 
 The task: predict the liquid chromatography retention time of **73,782 peptides** measured on different mass spectrometry runs, from the peptide sequence alone. My model reached a **mean absolute error of 2.78 minutes** on the challenge test set.
 
