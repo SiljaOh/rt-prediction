@@ -1,3 +1,6 @@
 data/
 *.csv
 .DS_Store
+__pycache__/
+.venv/
+.idea/
